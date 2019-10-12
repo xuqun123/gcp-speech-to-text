@@ -1,4 +1,4 @@
-# gcp-speech-to-text
+# google-cloud-speech-to-text
 A Ruby client app to invoke Google Cloud Speech-to-Text API
 
 ## Supported audio encodings
