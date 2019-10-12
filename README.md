@@ -2,7 +2,7 @@
 A Ruby client app to invoke Google Cloud Speech-to-Text API, which converting audio file with human speech to a text transcription.
 
 ## Supported audio encodings
-- MP3
+- MP3 (Only available for beta verison API)
 - FLAC
 - LINEAR16
 - MULAW
