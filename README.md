@@ -1,5 +1,5 @@
 # google-cloud-speech-to-text
-A Ruby client app to invoke Google Cloud Speech-to-Text API
+A Ruby client app to invoke Google Cloud Speech-to-Text API, which converting audio file with human speech to a text transcription.
 
 ## Supported audio encodings
 - MP3
@@ -13,6 +13,9 @@ A Ruby client app to invoke Google Cloud Speech-to-Text API
 
 ## Supported languages
 Refer to https://cloud.google.com/speech-to-text/docs/languages
+
+## Max payload size limit
+10485760 bytes
 
 ## Usage
 1. Set the environment variable `GOOGLE_APPLICATION_CREDENTIALS` to the file path of the `JSON` file that contains your `service account key`. This variable only applies to your current shell session, so if you open a new session, set the variable again.
